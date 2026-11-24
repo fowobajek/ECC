@@ -1,0 +1,119 @@
+{
+  "schemaVersion": "ecc.install.v1",
+  "installedAt": "2026-11-24T18:36:56.928Z",
+  "target": {
+    "id": "gemini-project",
+    "target": "gemini",
+    "kind": "project",
+    "root": "/Users/fowobajek/.copilot/repos/copilot-worktrees/ECC/fowobajek-vigilant-carnival/.gemini",
+    "installStatePath": "/Users/fowobajek/.copilot/repos/copilot-worktrees/ECC/fowobajek-vigilant-carnival/.gemini/ecc-install-state.json"
+  },
+  "request": {
+    "profile": "minimal",
+    "modules": [],
+    "includeComponents": [],
+    "excludeComponents": [],
+    "legacyLanguages": [],
+    "legacyMode": false,
+    "hookConsent": null,
+    "trust": false,
+    "consentMcp": []
+  },
+  "resolution": {
+    "selectedModules": [
+      "platform-configs",
+      "shared-script-utils"
+    ],
+    "skippedModules": [
+      "rules-core",
+      "agents-core",
+      "commands-core",
+      "workflow-quality"
+    ]
+  },
+  "source": {
+    "repoVersion": "2.2.3",
+    "repoUrl": null,
+    "repoCommit": "4adeee6732a12d1540f49a4d50a38ce8c97f9a53",
+    "manifestVersion": 1
+  },
+  "operations": [
+    {
+      "kind": "copy-file",
+      "moduleId": "platform-configs",
+      "sourcePath": "/Users/fowobajek/.copilot/repos/copilot-worktrees/ECC/fowobajek-vigilant-carnival/mcp-configs/mcp-servers.json",
+      "sourceRelativePath": "mcp-configs/mcp-servers.json",
+      "destinationPath": "/Users/fowobajek/.copilot/repos/copilot-worktrees/ECC/fowobajek-vigilant-carnival/.gemini/mcp-configs/mcp-servers.json",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false,
+      "contentSha256": "f2ee1f7cce2ec842180e03cfc64e0d9024e26d4a56c753ad046b9f931ae1d174"
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "platform-configs",
+      "sourcePath": "/Users/fowobajek/.copilot/repos/copilot-worktrees/ECC/fowobajek-vigilant-carnival/scripts/auto-update.js",
+      "sourceRelativePath": "scripts/auto-update.js",
+      "destinationPath": "/Users/fowobajek/.copilot/repos/copilot-worktrees/ECC/fowobajek-vigilant-carnival/.gemini/scripts/auto-update.js",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false,
+      "contentSha256": "e97450221286c973a34828f20eb5c31964f88feb8aef1aef79832c83e17b860d"
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "platform-configs",
+      "sourcePath": "/Users/fowobajek/.copilot/repos/copilot-worktrees/ECC/fowobajek-vigilant-carnival/scripts/setup-package-manager.js",
+      "sourceRelativePath": "scripts/setup-package-manager.js",
+      "destinationPath": "/Users/fowobajek/.copilot/repos/copilot-worktrees/ECC/fowobajek-vigilant-carnival/.gemini/scripts/setup-package-manager.js",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false,
+      "contentSha256": "4b245f6828b8c18daad27df66282b43ef5b36d4098dc4e52ecf6ca8b949bb6d9"
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "platform-configs",
+      "sourcePath": "/Users/fowobajek/.copilot/repos/copilot-worktrees/ECC/fowobajek-vigilant-carnival/scripts/lib/package-manager.js",
+      "sourceRelativePath": "scripts/lib/package-manager.js",
+      "destinationPath": "/Users/fowobajek/.copilot/repos/copilot-worktrees/ECC/fowobajek-vigilant-carnival/.gemini/scripts/lib/package-manager.js",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false,
+      "contentSha256": "2907f840079dfe02a5029cead008b477b81d889a9b3f6278948eed7fba5271d3"
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "shared-script-utils",
+      "sourcePath": "/Users/fowobajek/.copilot/repos/copilot-worktrees/ECC/fowobajek-vigilant-carnival/scripts/lib/utils.js",
+      "sourceRelativePath": "scripts/lib/utils.js",
+      "destinationPath": "/Users/fowobajek/.copilot/repos/copilot-worktrees/ECC/fowobajek-vigilant-carnival/.gemini/scripts/lib/utils.js",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false,
+      "contentSha256": "9cd46ca7d5695a9f8be5afc8da618c29b58e65f4be1411531a64485684592710"
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "shared-script-utils",
+      "sourcePath": "/Users/fowobajek/.copilot/repos/copilot-worktrees/ECC/fowobajek-vigilant-carnival/scripts/lib/agent-data-home.js",
+      "sourceRelativePath": "scripts/lib/agent-data-home.js",
+      "destinationPath": "/Users/fowobajek/.copilot/repos/copilot-worktrees/ECC/fowobajek-vigilant-carnival/.gemini/scripts/lib/agent-data-home.js",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false,
+      "contentSha256": "afc7d0ebe7b747345063f716c18816d6351e94cc1641303a4568fe70858e5710"
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "shared-script-utils",
+      "sourcePath": "/Users/fowobajek/.copilot/repos/copilot-worktrees/ECC/fowobajek-vigilant-carnival/scripts/lib/path-safety.js",
+      "sourceRelativePath": "scripts/lib/path-safety.js",
+      "destinationPath": "/Users/fowobajek/.copilot/repos/copilot-worktrees/ECC/fowobajek-vigilant-carnival/.gemini/scripts/lib/path-safety.js",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false,
+      "contentSha256": "542126cf47247161dd26713a1f33d34af2881db46435ac8ecef76a8be31c062c"
+    }
+  ]
+}
